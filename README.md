@@ -95,13 +95,13 @@ cp .env.example .env
 ```env
 DB_USER=your_db_user
 DB_PASS=your_db_password
-<!-- for local testing -->
+DB_NAME=your_db_name
+# for local testing
 DB_HOST=localhost
 DB_PORT=5434
-<!-- for airflow -->
+# for airflow
 DB_HOST=yourdb_host
 DB_PORT=5434
-DB_NAME=your_db_name
 ```
 
 **3.** Start all services:
