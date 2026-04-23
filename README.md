@@ -101,7 +101,7 @@ DB_HOST=localhost
 DB_PORT=5434
 # for airflow
 DB_HOST=yourdb_host
-DB_PORT=5434
+DB_PORT=5432
 ```
 
 **3.** Start all services:
