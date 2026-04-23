@@ -93,11 +93,15 @@ cp .env.example .env
 ```
 
 ```env
-DB_USER=crypto_user
-DB_PASS=crypto_pass
-DB_HOST=postgres-crypto
-DB_PORT=5432
-DB_NAME=crypto_db
+DB_USER=your_db_user
+DB_PASS=your_db_password
+<!-- for local testing -->
+DB_HOST=localhost
+DB_PORT=5434
+<!-- for airflow -->
+DB_HOST=yourdb_host
+DB_PORT=5434
+DB_NAME=your_db_name
 ```
 
 **3.** Start all services:
